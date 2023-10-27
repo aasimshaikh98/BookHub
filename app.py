@@ -11,7 +11,7 @@ st.markdown("Tailors book suggestions based on users' preferences."
 " Provides a curated list of books, enhancing the reading experience.")
 st.subheader("Enter your Name")
 user_name = st.text_input("")
-Item_based = pd.read_csv('C:/Users/shaik.000/Desktop/new2/item_based.csv')
+Item_based = pd.read_csv('https://github.com/aasimshaikh98/BookHub/blob/master/item_based.csv?raw=true')
 b='\U0001F4D6'
 p="\u270D\ufe0f"
 book=""
