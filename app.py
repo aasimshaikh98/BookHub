@@ -4,7 +4,7 @@ import pandas as pd
 import random
 a = random.randint(1,221000)
 image=Image.open('logosS.png')
-st.image(image,width=1200px height=400)
+st.image(image,width=1200)
 st.title("-- Book Recommender System 📚 --")
 st.markdown("Tailors book suggestions based on users' preferences."
 " Employs collaborative filtering algorithms to find like-minded readers."
