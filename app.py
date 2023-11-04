@@ -3,7 +3,7 @@ from PIL import Image
 import pandas as pd
 import random
 a = random.randint(1,221000)
-image=Image.open('logo.png')
+image=Image.open('logos.png')
 st.image(image)
 st.title("-- Book Recommender System 📚 --")
 st.markdown("Tailors book suggestions based on users' preferences."
